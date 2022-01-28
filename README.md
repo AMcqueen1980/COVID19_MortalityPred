@@ -13,7 +13,7 @@ Patient Chest X-Rays and metadata were used from COVID19 positive patients at St
 A Convoluntional neural network (CNN) model was used to evaluate patient images in order to predict the likelihood of patient mortality.
 A KNN model ended up being the best model to use, with 91.6% accuracy on patient data alone. This model also minimized type 1 errors, which is ideal for these types of predictions:
 
-![image]  (https://user-images.githubusercontent.com/72315132/151558199-0e12fd3a-9c2c-4dcf-9d06-adf9b6bd8867.png)
+  ![image](https://user-images.githubusercontent.com/72315132/151558199-0e12fd3a-9c2c-4dcf-9d06-adf9b6bd8867.png)
 
 
 ## Summary
