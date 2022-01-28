@@ -9,13 +9,20 @@ Data was curated from: https://wiki.cancerimagingarchive.net/pages/viewpage.acti
 
 Patient Chest X-Rays and metadata were used from COVID19 positive patients at Stony Brook University medical center in Stony Brook, NY.
 
+## Model Results
+
+## Summary
+
 
 ## Repository Structure
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── Final_notebook.ipynb                <- Final notebook with cleaned data used for final predictions and classification
-├── Final_Notebook_2.ipynb              <- Final analysis in Jupyter notebook
+├── COVID19Models_notebook.ipynb        <- Various model creation and optimization for patient data
+├── COVID19_SBU_Dataprep.ipynb          <- Cleaning of patient metadata
+├── COVID19_xray_imganalysis.ipynb      <- CNN model creation and analysis of X-Ray images
+├── Final_Notebook.ipynb                <- Final notebook with cleaned data used for final predictions and classification
+├── Move_and_reformat_images.ipynb      <- Notebook for reorganizing directory structure on local machine      
 ├── Presentation.pdf                    <- PDF version of project presentation
 └── Data                                <- Cleaned data generated from code. Images and unmodified data available for download via the Kaggle link
 ```
