@@ -40,7 +40,9 @@ After making mortality probability predictions with the CNN model, these values 
 This project details the creations and predictions of machine learning models capable of predicting the probability of patient mortality from COVID19 infection using various sources of medical data. These models could be vastly improved by taking the following steps:
 
 • **Increased computing power** This would single-handedly improve models by allowing more images for training and validation, larger image sizes for processing, and implementing further changes listed below.
+
 • **Using object detection methods to modify images** Ports due to medical devices in each image could potentially inhibit model learning by assigning values to generate arrays that are not true to the lung image by itself. Object detection could serve to correct for these estimates to allow for a better fitting model.
+
 • **Increased number of patients** While there were many images to train the CNN model, there were only about 1330 original patients that were used for the final modeling. Increasing the sample size is always a good method to improve model metrics and performance.
 
 While futher improvements would be necessary to optimize for practical use, the use of CNN networks for diagnosis and detection of various diseases is a current area of research in medical informatics. In high stakes prediction domains such as medicine, the utmost care and caution must be taken when creating these models for deployment and practical use amongst medical practioners. As such, much more research is needed before we see these models in every day use.
